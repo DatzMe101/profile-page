@@ -1,0 +1,61 @@
+body {
+  background-color: #f8f8f8;
+  margin: 0;
+}
+header {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-search {
+  border: 1px solid #9f9f9f;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+.profile-search > input {
+  border: none;
+  outline: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-item {
+  text-decoration: none;
+  color: #363636;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+}
+.avatar > img {
+  width: 100%;
+  border-radius: 100%;
+}
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.user-name {
+  margin-right: 10px;
+}
