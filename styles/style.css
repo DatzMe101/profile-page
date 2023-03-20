@@ -1,3 +1,6 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
 body {
   background-color: #f8f8f8;
   margin: 0;
@@ -5,6 +8,7 @@ body {
 header {
   display: grid;
   grid-template-columns: 300px 1fr 300px;
+  gap: 20px;
   background-color: #ffffff;
   padding: 15px;
 }
@@ -59,3 +63,79 @@ nav {
 .user-name {
   margin-right: 10px;
 }
+
+.page-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.page-item-divider {
+  border-bottom: 1px solid #dcdcdc;;
+}
+.page-item-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user-detail > .name {
+  font-weight: bold;
+}
+
+.user-detail > .description {
+  font-size: 12px;
+  color: #B9B8BD;
+}
+.side-title {
+  color: #B9B8BD;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.panel {
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%
+}
+
+.image-icon.twitter {
+  background-color: #509FEB;
+}
+.image-icon.github {
+  background-color: #C94E32;
+}
+.image-icon.apple {
+  background-color: #000000;
+}
+
+.notification-count {
+  background-color: #C63440;
+  font-size: 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
