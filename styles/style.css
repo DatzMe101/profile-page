@@ -1,3 +1,6 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
 body {
   background-color: #f8f8f8;
   margin: 0;
@@ -7,6 +10,7 @@ header {
   grid-template-columns: 300px 1fr 300px;
   background-color: #ffffff;
   padding: 10px;
+  gap: 20px
 }
 .profile-search {
   border: 1px solid #969595;
@@ -50,4 +54,76 @@ nav {
   align-items: center;
   gap: 10px;
   justify-content: flex-end;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.panel {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.panel-detail > .name {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.panel-detail > .description {
+  font-size: 12px;
+  color: #9E9EA2;
+}
+.panel-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.panel-item-border {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d2d2d2;
+}
+.panel-item-details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.panel-sub-title {
+  font-size: 12px;
+  color: #9E9EA2;
+  margin: 20px 0;
+}
+.panel-icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+.panel-icon.twitter {
+  background-color: #509FEB;
+}
+.panel-icon.github {
+  background-color: #CA4D33;
+}
+.panel-icon.apple {
+  background-color: #000000;
+}
+.notification-count {
+  background-color: #CF313E;
+  border-radius: 100%;
+  font-size: 10px;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
