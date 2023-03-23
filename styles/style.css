@@ -71,7 +71,7 @@ nav {
   padding: 10px;
 }
 .page-item-divider {
-  border-bottom: 1px solid #dcdcdc;;
+  border-bottom: 1px solid #dcdcdc;
 }
 .page-item-detail {
   display: flex;
@@ -137,5 +137,70 @@ main {
   justify-content: center;
 }
 
+.share-something-container {
+  background-color: #F8F8F8;
+  display: grid;
+  grid-template-columns: 1fr 35px;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+.share-something {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  gap: 15px;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 20px;
+}
+.share-something-container > input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.post-action {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.post-action-item {
+  text-decoration: none;
+  color: #363636;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.post-action-item > svg {
+  width: 25px;
+  height: 25px;
+}
+.page-sort {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.post img {
+  border-radius: 20px;
+  width: 100%;
+}
+.post-reaction {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post-reaction svg {
+  width: 25px;
+  height: 25px;
+}
 
-
+.post-reaction-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.post-reaction-group {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
